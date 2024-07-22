@@ -44,6 +44,22 @@ https://github.com/jonasschmedtmann/html-css-course
 
 </details>
 
+<details>
+  <summary>EKI-20240722-003-HTML Document Structure</summary>
+
+02-HTML-Fundamentals
+
+```sh
+
+settings -> "auto closing tags" > HTML: auto closing tags = disabled
+
+```
+
+
+</details>
+
+
+
 ## EKI INDRADI
 
 "TIME > KNOWLEDGE > MONEY". #2024_3_DIGIT_MOTIVATION
