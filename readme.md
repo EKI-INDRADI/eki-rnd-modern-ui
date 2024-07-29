@@ -84,6 +84,19 @@ update index.html
 
 </details>
 
+
+<details>
+  <summary>EKI-20240729-005-More-Text-Elements-Lists</summary>
+
+```html
+<ol> = number list
+  
+<ul> = symbol list
+```
+
+</details>
+
+
 ## EKI INDRADI
 
 "TIME > KNOWLEDGE > MONEY". #2024_3_DIGIT_MOTIVATION
