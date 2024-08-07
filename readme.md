@@ -107,6 +107,16 @@ update index.html
 </details>
 
 
+<details>
+  <summary>EKI-20240807-007-Hyperlinks</summary>
+
+```html
+<a> ... </a>
+```
+
+</details>
+
+
 ## EKI INDRADI
 
 "TIME > KNOWLEDGE > MONEY". #2024_3_DIGIT_MOTIVATION
