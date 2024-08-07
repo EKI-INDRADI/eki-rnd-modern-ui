@@ -84,18 +84,20 @@ update index.html
 
 </details>
 
-
 <details>
   <summary>EKI-20240729-005-More-Text-Elements-Lists</summary>
 
 ```html
-<ol> = number list
-  
-<ul> = symbol list
+<ol>
+  = number list
+
+  <ul>
+    = symbol list
+  </ul>
+</ol>
 ```
 
 </details>
-
 
 <details>
   <summary>EKI-20240807-006-Images-and-Attributes</summary>
@@ -106,7 +108,6 @@ update index.html
 
 </details>
 
-
 <details>
   <summary>EKI-20240807-007-Hyperlinks</summary>
 
@@ -116,6 +117,42 @@ update index.html
 
 </details>
 
+<details>
+  <summary>EKI-20240807-008-Structuring-our-Page</summary>
+
+```html
+<head>
+  ..
+</head>
+
+
+<body>
+  ..
+<header>
+  ..
+  <nav>
+  ..
+  <nav>
+  ..
+</header>
+  ..
+<aside>
+  ..
+  <article>
+  ..
+    <header>
+  ..
+    </header>
+  ..
+  </article>
+  ..
+</aside>
+  ..
+<footer></footer>
+</body>
+```
+
+</details>
 
 ## EKI INDRADI
 
