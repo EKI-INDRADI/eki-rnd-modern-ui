@@ -97,6 +97,16 @@ update index.html
 </details>
 
 
+<details>
+  <summary>EKI-20240807-006-Images-and-Attributes</summary>
+
+```html
+<img ... />
+```
+
+</details>
+
+
 ## EKI INDRADI
 
 "TIME > KNOWLEDGE > MONEY". #2024_3_DIGIT_MOTIVATION
