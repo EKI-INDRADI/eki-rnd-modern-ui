@@ -167,6 +167,35 @@ update index.html
 
 </details>
 
+
+<details>
+  <summary>EKI-20240815-010-Installing-Additional-VS-Code-Extensions</summary>
+
+
+vs code extention
+
+```sh
+
+- image preview
+- color highlight
+- auto rename tag (jun han)
+- Live Server
+
+```
+
+vs code settings
+
+```sh
+
+HTML : Auto Closing Tags ->  Enable
+
+```
+
+
+
+</details>
+
+
 ## EKI INDRADI
 
 "TIME > KNOWLEDGE > MONEY". #2024_3_DIGIT_MOTIVATION
