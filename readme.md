@@ -154,6 +154,19 @@ update index.html
 
 </details>
 
+
+<details>
+  <summary>EKI-20240815-009-A-Note-on-Semantic-HTML</summary>
+
+```html
+
+<div></div> <!---box---->
+<em></em>  <!---italic such as <i></i>---->
+
+```
+
+</details>
+
 ## EKI INDRADI
 
 "TIME > KNOWLEDGE > MONEY". #2024_3_DIGIT_MOTIVATION
