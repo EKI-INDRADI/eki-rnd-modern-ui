@@ -196,6 +196,17 @@ HTML : Auto Closing Tags ->  Enable
 </details>
 
 
+<details>
+  <summary>EKI-20240815-011-CHALLENGE-#1</summary>
+
+```html
+
+<aside></aside> <!--- secondar information / informasi ke 2 dari halaman utama --->
+
+```
+</details>
+
+
 ## EKI INDRADI
 
 "TIME > KNOWLEDGE > MONEY". #2024_3_DIGIT_MOTIVATION
