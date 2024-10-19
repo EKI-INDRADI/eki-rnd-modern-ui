@@ -241,6 +241,27 @@ https://codepen.io/jonasschmedtmann/pen/ZELVmJX/48f20ea036df9afc09978b07eca226b8
 </details>
 
 
+<details>
+  <summary>EKI-20241019-013-Introduction-to-CSS</summary>
+
+
+```css
+
+/* h1 == Selector */
+h1 {
+/* color: blue; == Declaration/Style */
+  color: blue;
+  text-align: center;
+  front-size: 20px;
+
+  /* 
+   front-size: 20px;   
+   (property): (value)
+  */
+}
+
+```
+</details>
 
 ## EKI INDRADI
 
