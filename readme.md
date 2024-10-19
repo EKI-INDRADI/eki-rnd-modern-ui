@@ -206,6 +206,41 @@ HTML : Auto Closing Tags ->  Enable
 ```
 </details>
 
+<details>
+  <summary>EKI-20241019-012-CHALLENGE-#2</summary>
+
+https://codepen.io/pen
+
+https://codepen.io/jonasschmedtmann/pen/ZELVmJX/48f20ea036df9afc09978b07eca226b8
+
+```html
+
+<article>
+  <h2>Converse Chuck Taylor All Star Low Top</h2>
+  <img src="https://i.ibb.co/Jr7Wh1d/challenges.jpg" alt="Chuck Taylor All Star Shoe" height="250" width="250" />
+  
+  <p><strong>$65.00</strong></p>
+  <p>Free shipping</p>
+  <p>Ready to dress up or down, these classic canvas Chucks are an everyday wardrobe staple.</p>
+
+  <a href="https://www.converse.com">More information &rarr;</a>
+  
+  <h3>Product details</h3>
+  <ul>
+    <li>Lightweight, durable canvas sneaker</li>
+    <li>Lightly padded footbed for added comfort</li>
+    <li>Iconic Chuck Taylor ankle patch</li>
+  </ul>
+  
+  <button>Add to cart</button>
+  
+</article>
+
+
+```
+</details>
+
+
 
 ## EKI INDRADI
 
