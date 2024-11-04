@@ -154,23 +154,20 @@ update index.html
 
 </details>
 
-
 <details>
   <summary>EKI-20240815-009-A-Note-on-Semantic-HTML</summary>
 
 ```html
-
-<div></div> <!---box---->
-<em></em>  <!---italic such as <i></i>---->
-
+<div></div>
+<!---box---->
+<em></em>
+<!---italic such as <i></i>---->
 ```
 
 </details>
 
-
 <details>
   <summary>EKI-20240815-010-Installing-Additional-VS-Code-Extensions</summary>
-
 
 vs code extention
 
@@ -191,19 +188,16 @@ HTML : Auto Closing Tags ->  Enable
 
 ```
 
-
-
 </details>
-
 
 <details>
   <summary>EKI-20240815-011-CHALLENGE-#1</summary>
 
 ```html
-
-<aside></aside> <!--- secondar information / informasi ke 2 dari halaman utama --->
-
+<aside></aside>
+<!--- secondar information / informasi ke 2 dari halaman utama --->
 ```
+
 </details>
 
 <details>
@@ -214,42 +208,44 @@ https://codepen.io/pen
 https://codepen.io/jonasschmedtmann/pen/ZELVmJX/48f20ea036df9afc09978b07eca226b8
 
 ```html
-
 <article>
   <h2>Converse Chuck Taylor All Star Low Top</h2>
-  <img src="https://i.ibb.co/Jr7Wh1d/challenges.jpg" alt="Chuck Taylor All Star Shoe" height="250" width="250" />
-  
+  <img
+    src="https://i.ibb.co/Jr7Wh1d/challenges.jpg"
+    alt="Chuck Taylor All Star Shoe"
+    height="250"
+    width="250"
+  />
+
   <p><strong>$65.00</strong></p>
   <p>Free shipping</p>
-  <p>Ready to dress up or down, these classic canvas Chucks are an everyday wardrobe staple.</p>
+  <p>
+    Ready to dress up or down, these classic canvas Chucks are an everyday
+    wardrobe staple.
+  </p>
 
   <a href="https://www.converse.com">More information &rarr;</a>
-  
+
   <h3>Product details</h3>
   <ul>
     <li>Lightweight, durable canvas sneaker</li>
     <li>Lightly padded footbed for added comfort</li>
     <li>Iconic Chuck Taylor ankle patch</li>
   </ul>
-  
+
   <button>Add to cart</button>
-  
 </article>
-
-
 ```
-</details>
 
+</details>
 
 <details>
   <summary>EKI-20241019-013-Introduction-to-CSS</summary>
 
-
 ```css
-
 /* h1 == Selector */
 h1 {
-/* color: blue; == Declaration/Style */
+  /* color: blue; == Declaration/Style */
   color: blue;
   text-align: center;
   front-size: 20px;
@@ -259,13 +255,63 @@ h1 {
    (property): (value)
   */
 }
+```
+
+</details>
+
+<details>
+  <summary>EKI-20241023-014-Inline-Internal-and-External-CSS</summary>
+
+style.css
+
+```css
+
+h1 {
+  color: blue;
+}
 
 ```
+
+```html
+
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+</html>
+
+
+```
+
+
+or
+
+```html
+
+<html>
+  <head>
+    <style>
+      h1 {
+        color: blue;
+      }
+    </style>
+  </head>
+</html>
+
+```
+
 </details>
 
 ## EKI INDRADI
 
-"TIME > KNOWLEDGE > MONEY". #2024_3_DIGIT_MOTIVATION
+"TIME > KNOWLEDGE > MONEY". #2025_3_DIGIT_MOTIVATION
+
+William Tanuwijaya quotes :
+
+- "mimpikan, pikirkan, ucapkan, lakukan, konsisten"
+- "ketika mimpi kita pikirkan, mimpi itu berubah bentuk jadi rencana"
+- "ketika rencana kita ucapkan, rencana berubah bentuk lagi jadi komitmen"
+- "ketika komitmen kita lakukan, komitment berubah bentuk lagi jadi kenyataan"
 
 ## Reference :
 
