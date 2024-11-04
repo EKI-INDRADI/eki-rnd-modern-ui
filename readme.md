@@ -263,7 +263,6 @@ h1 {
   <summary>EKI-20241023-014-Inline-Internal-and-External-CSS</summary>
 
 style.css
-
 ```css
 
 h1 {
@@ -272,6 +271,7 @@ h1 {
 
 ```
 
+index.html
 ```html
 
 <html>
@@ -283,9 +283,9 @@ h1 {
 
 ```
 
-
 or
 
+index.html
 ```html
 
 <html>
