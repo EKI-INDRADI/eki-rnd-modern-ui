@@ -260,7 +260,7 @@ h1 {
 </details>
 
 <details>
-  <summary>EKI-20241023-014-Inline-Internal-and-External-CSS</summary>
+  <summary>EKI-20241104-014-Inline-Internal-and-External-CSS</summary>
 
 style.css
 ```css
@@ -297,6 +297,63 @@ index.html
     </style>
   </head>
 </html>
+
+```
+
+</details>
+
+
+
+<details>
+  <summary>EKI-20241104-015-Styling-Text</summary>
+
+style.css
+```css
+
+
+/* Reset CSS */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+h1 {
+  /* color: blue; */
+  font-size: 26px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+h3 {
+  font-size : 30px;
+  font-family: sans-serif;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+
+li {
+  font-size: 20px;
+  font-family: sans-serif;
+}
 
 ```
 
