@@ -359,6 +359,83 @@ li {
 
 </details>
 
+
+
+<details>
+  <summary>EKI-20241105-016-Combining-Selectors</summary>
+
+style.css
+```css
+
+/* Reset CSS */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+h1, h2, h3, h4, p, li {
+  font-family: sans-serif;
+}
+
+h1 {
+  /* color: blue; */
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size : 30px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+
+li {
+  font-size: 20px;
+}
+
+
+/* penulisan css spesific & replace global  */
+
+footer p { /* maksudnya p adalah turuninan dari footer, untuk replace dari p global */
+  font-size: 16px;
+}
+
+
+article header p {  /* maksudnya p adalah turuninan dari article dan header, untuk replace dari p global */
+  font-style: italic;
+} 
+
+/* maksudnya p adalah turuninan dari header, untuk replace dari p global */
+/*
+header p {  
+  font-style: italic;
+} 
+*/
+
+
+```
+
+</details>
+
+
+
+
 ## EKI INDRADI
 
 "TIME > KNOWLEDGE > MONEY". #2025_3_DIGIT_MOTIVATION

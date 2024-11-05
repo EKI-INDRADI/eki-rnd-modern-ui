@@ -6,39 +6,56 @@
   box-sizing: border-box;
 } */
 
+h1, h2, h3, h4, p, li {
+  font-family: sans-serif;
+}
+
 h1 {
   /* color: blue; */
   font-size: 26px;
-  font-family: sans-serif;
   text-transform: uppercase;
   font-style: italic;
 }
 
 h2 {
   font-size: 40px;
-  font-family: sans-serif;
 }
 
 h3 {
   font-size : 30px;
-  font-family: sans-serif;
 }
 
 h4 {
   font-size: 20px;
-  font-family: sans-serif;
   text-transform: uppercase;
   text-align: center;
 }
 
 p {
   font-size: 22px;
-  font-family: sans-serif;
   line-height: 1.5;
 }
 
 
 li {
   font-size: 20px;
-  font-family: sans-serif;
 }
+
+
+/* penulisan css spesific & replace global  */
+
+footer p { /* maksudnya p adalah turuninan dari footer, untuk replace dari p global */
+  font-size: 16px;
+}
+
+
+article header p {  /* maksudnya p adalah turuninan dari article dan header, untuk replace dari p global */
+  font-style: italic;
+} 
+
+/* maksudnya p adalah turuninan dari header, untuk replace dari p global */
+/*
+header p {  
+  font-style: italic;
+} 
+*/
