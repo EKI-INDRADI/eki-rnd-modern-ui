@@ -433,6 +433,94 @@ header p {
 
 </details>
 
+<details>
+  <summary>EKI-20241105-017-Class-and-ID-Selectors</summary>
+
+style.css
+```css
+
+/* untuk disable/enable command tekan "CTRL + /"  */
+
+/* maksudnya p adalah turuninan dari header, untuk replace dari p global */
+/*
+header p {  
+  font-style: italic;
+} 
+*/
+
+/* maksudnya p adalah turuninan dari article dan header, untuk replace dari p global */
+/* 
+article header p {  
+  font-style: italic;
+}  */
+
+
+/* --------------- PENGUNAAN ID HANYA BISA 1X UNTUK 1 VARIANT SELECTOR, UNTUK BERKALI2 HARUS MENGGUNAKAN CLASS--------------- */
+
+#author {
+  /* untuk selector yg memiliki id author */
+  /* <p id="author"> */
+  font-style: italic;
+  font-size: 18px;
+
+}
+
+#author {
+  /* untuk selector yg memiliki id copyright */
+  /* <p id-"copyright"> */
+  font-size: 16px;
+
+}
+
+/* --------------- / PENGUNAAN ID HANYA BISA 1X UNTUK 1 VARIANT SELECTOR, UNTUK BERKALI2 HARUS MENGGUNAKAN CLASS--------------- */
+
+/* --------------- CLASS --------------- */
+
+.related-author {
+
+/* PENGUNAAN BISA BERKALI KALI */
+/* 
+<p class="related-author">By Jonas Schmedtmann</p>
+<p class="related-author">By Jim Dillon</p>
+<p class="related-author">By Matilda</p> 
+*/
+
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* --------------- / CLASS--------------- */
+
+
+
+/* --------------- SELECTOR VS CLASS VS ID --------------- */
+
+/* UNTUK REMOVE POINT DOT "o" -> SELURUH SELECTOR */
+/* ul {
+  list-style: none;
+} */
+
+/* OR */
+
+/* UNTUK REMOVE POINT DOT "o" -> BERKALI2 */
+.related {
+  list-style: none;
+}
+
+
+/* UNTUK REMOVE POINT DOT "o" -> SEKALI */
+/* #related {
+  list-style: none;
+} */
+
+/* --------------- SELECTOR VS CLASS VS ID --------------- */
+
+/* NOTE : disarankan sebaik selalu menggunakan class walau hanya sekali, 
+karena untuk menggunakan/perubahan ID akan error jika ingin digunakan kembali */
+
+```
+
+</details>
 
 
 
